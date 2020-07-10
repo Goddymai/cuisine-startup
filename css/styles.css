@@ -1,0 +1,247 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 125px;
+}
+
+a:hover, .navlinks:hover, .btn:hover, .footer-image:hover {
+  color: #E0B0FF;
+}
+em{
+  font-size: 1.5rem;
+}
+
+/* TITLE-SECTION */
+#title, .footer,.reviews, .btn-secondary, .bg-dark, .team {
+  background-color: #008080;
+}
+
+#title {
+  color: black;
+}
+
+.container-fluid {
+  padding: 12% 15% 5%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding: 1rem 15% 1rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-family: "Ubuntu";
+}
+
+.navlinks {
+  color: #fff;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.logo {
+  border-color: #E0B0FF;
+  border-width: 1px;
+  padding: 15px;
+}
+
+/* title  */
+.title-image {
+  width: 100%;
+  position: absolute;
+  /* this takes it out of the natural flow of html so you can adjust */
+  right: 0;
+}
+
+/* TITLE-SECTION */
+/* TEAM */
+/* MENU */
+.card-images {
+  width: 150px;
+  height: 130px;
+}
+
+#menu {
+  padding: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.menu-column {
+  padding: 3% 2%;
+}
+
+.card-images {
+  border-radius: 10%;
+  border-style: double;
+  border-color: #E0B0FF;
+}
+
+.mid-menu {
+  width: 60%;
+  margin: auto;
+}
+
+.mid-menu, .card-text, .carousal-text {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card-title {
+  text-align: left;
+  font-size: 1.5rem;
+}
+.cost{
+  font-size: 1.5rem;
+}
+
+/* MENU */
+/* REVIEWS */
+.reviews, .team {
+  text-align: center;
+  color: #fff;
+}
+
+.reviews-image, .team-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item, .address {
+  padding: 2% 15% 7%;
+}
+
+.carousel-text {
+  width: 30%;
+  margin: auto;
+}
+
+.press {
+  padding: 0 15% 3%;
+  text-align: center;
+  background-color: grey;
+}
+
+.press-images {
+  width: 20%;
+  margin: 0 5% 0;
+  padding-top: 1rem;
+}
+
+/* REVIEWS */
+/* ADDRESS */
+
+
+/* footer */
+/* footer section */
+.address{
+  text-align: center;
+}
+.contact-images{
+  font-size: 25px;
+  padding: 0 7% 0;
+  color: #008080;
+}
+
+.footer {
+  text-align: center;
+  padding: 1% 15%;
+}
+
+.footer-image {
+  padding: 20px 10px;
+  color: #fff;
+}
+
+/* MEDIA QUERRIES */
+@media (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    padding-top: 70px;
+  }
+
+  .container-fluid {
+    padding: 20% 15% 15%;
+  }
+
+  .carousel-text {
+    width: 90%;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 100px;
+    padding-top: 50px;
+  }
+  h2{
+    font-size: 3rem;
+  }
+
+  .mid-menu {
+    width: 95%;
+    margin: auto;
+  }
+  .footer-image{
+    font-size: 50px;
+  }
+  .contact-images{
+    font-size: 40px;
+    padding: 0 7% 0;
+    color: #008080;
+  }
+  .card-text, .cost {
+    color: black;
+    font-size: 1.5rem;
+  }
+  .mid-menu{
+    color: black;
+    font-size: 1.5rem;
+  }
+  card-title {
+    text-align: left;
+    font-size: 2rem;
+  }
+  .cost{
+    font-size: 2rem;
+  }
+  .nav-item {
+    padding: 0 5px;
+  }
+  .nav-link {
+    font-size: 1.5rem;
+    font-family: "Ubuntu";
+  }
+  .logo {
+    border-color: #E0B0FF;
+    border-width: 1px;
+    padding: 0 10px;
+  }
+  .logo-text, .cart {
+    font-size: 2.5rem;
+  }
+  .plus-minus{
+    font-size: 2rem;
+  }
+}
